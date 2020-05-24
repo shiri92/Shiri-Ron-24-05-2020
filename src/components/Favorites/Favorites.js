@@ -32,6 +32,7 @@ const Favorites = ({ classes, favorites }) => {
 
 Favorites.propTypes = {
   classes: PropTypes.object,
+  favorites: PropTypes.array,
 };
 
 const mapStateToPtops = (state) => ({
