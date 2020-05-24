@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e2302bdf1f0d1fcc869a3ac39a7427a",
+    "revision": "7a2903ac81e5c717ac4f6583ba16fd67",
     "url": "/Shiri-Ron-24-05-2020/index.html"
   },
   {
-    "revision": "bee13d4c8da68d14b567",
+    "revision": "59168c72a4d632297322",
     "url": "/Shiri-Ron-24-05-2020/static/css/main.4be9d301.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Shiri-Ron-24-05-2020/static/js/2.74d6de9f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bee13d4c8da68d14b567",
-    "url": "/Shiri-Ron-24-05-2020/static/js/main.b5fd9c29.chunk.js"
+    "revision": "59168c72a4d632297322",
+    "url": "/Shiri-Ron-24-05-2020/static/js/main.a14002ec.chunk.js"
   },
   {
     "revision": "b643364c9ad2c4c1f27e",
