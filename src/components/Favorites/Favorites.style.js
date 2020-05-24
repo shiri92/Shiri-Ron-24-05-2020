@@ -1,3 +1,5 @@
+import background from "../../icons/background.jpg";
+
 export const styles = () => ({
   cardsContainer: {
     margin: "50px",
@@ -8,6 +10,9 @@ export const styles = () => ({
     height: "230px",
     border: "1px solid rgba(0, 0, 0, 0.12)",
     borderRadius: "5px 10px 15px 30px/30px 15px 10px 5px",
+    background: `linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.6)), url(${background})`,
+    backgroundPosition: "center center",
+    backgroundSize: "cover",
   },
   contentContainer: {
     height: "calc(100% - 40px)",

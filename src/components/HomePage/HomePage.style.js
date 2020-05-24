@@ -1,4 +1,5 @@
 import cyan from "@material-ui/core/colors/cyan";
+import background from "../../icons/background.jpg";
 
 export const styles = (theme) => ({
   actionsBarContainer: {
@@ -24,10 +25,13 @@ export const styles = (theme) => ({
     margin: "0 auto",
     borderRadius: "10px 20px 30px 40px/30px",
     fontFamily: "Balsamiq Sans",
+    backgroundPosition: "center center",
+    backgroundSize: "cover",
+    background: `linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5)), url(${background})`,
   },
   top: {
     display: "flex",
-    justifyContent: "space-between",
+    justifyContent: "space-around",
   },
   middle: {
     fontSize: "60px",
@@ -44,9 +48,6 @@ export const styles = (theme) => ({
     fontFamily: "Balsamiq Sans",
   },
   current: {
-    border: `5px solid ${cyan[700]}`,
-    borderRadius: "5px 10px 15px 30px/30px 15px 10px 5px",
-    padding: "20px",
     textAlign: "center",
   },
   contentContainer: {

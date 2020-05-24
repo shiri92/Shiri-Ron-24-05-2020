@@ -10,7 +10,6 @@ const getLocations = async (query) => {
     const res = await apiCall.json();
     return res;
   } catch (error) {
-    console.error(error);
     return dummyData.dummyLocations;
   }
 };
