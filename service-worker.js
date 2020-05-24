@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Shiri-Ron-24-05-2020/precache-manifest.d29653ec3a56577d67c539ec72ae2be1.js"
+  "/Shiri-Ron-24-05-2020/precache-manifest.d67dad60ac1c988a0d545374bd5e14a9.js"
 );
 
 self.addEventListener('message', (event) => {

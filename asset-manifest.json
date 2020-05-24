@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Shiri-Ron-24-05-2020/static/css/main.8088575c.chunk.css",
-    "main.js": "/Shiri-Ron-24-05-2020/static/js/main.946f08e1.chunk.js",
-    "main.js.map": "/Shiri-Ron-24-05-2020/static/js/main.946f08e1.chunk.js.map",
+    "main.js": "/Shiri-Ron-24-05-2020/static/js/main.99b29721.chunk.js",
+    "main.js.map": "/Shiri-Ron-24-05-2020/static/js/main.99b29721.chunk.js.map",
     "runtime-main.js": "/Shiri-Ron-24-05-2020/static/js/runtime-main.7a0cc960.js",
     "runtime-main.js.map": "/Shiri-Ron-24-05-2020/static/js/runtime-main.7a0cc960.js.map",
     "static/js/2.1f968bea.chunk.js": "/Shiri-Ron-24-05-2020/static/js/2.1f968bea.chunk.js",
     "static/js/2.1f968bea.chunk.js.map": "/Shiri-Ron-24-05-2020/static/js/2.1f968bea.chunk.js.map",
     "index.html": "/Shiri-Ron-24-05-2020/index.html",
-    "precache-manifest.d29653ec3a56577d67c539ec72ae2be1.js": "/Shiri-Ron-24-05-2020/precache-manifest.d29653ec3a56577d67c539ec72ae2be1.js",
+    "precache-manifest.d67dad60ac1c988a0d545374bd5e14a9.js": "/Shiri-Ron-24-05-2020/precache-manifest.d67dad60ac1c988a0d545374bd5e14a9.js",
     "service-worker.js": "/Shiri-Ron-24-05-2020/service-worker.js",
     "static/css/main.8088575c.chunk.css.map": "/Shiri-Ron-24-05-2020/static/css/main.8088575c.chunk.css.map",
     "static/js/2.1f968bea.chunk.js.LICENSE.txt": "/Shiri-Ron-24-05-2020/static/js/2.1f968bea.chunk.js.LICENSE.txt",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.7a0cc960.js",
     "static/js/2.1f968bea.chunk.js",
     "static/css/main.8088575c.chunk.css",
-    "static/js/main.946f08e1.chunk.js"
+    "static/js/main.99b29721.chunk.js"
   ]
 }
