@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Shiri-Ron-24-05-2020/static/css/main.8088575c.chunk.css",
-    "main.js": "/Shiri-Ron-24-05-2020/static/js/main.99b29721.chunk.js",
-    "main.js.map": "/Shiri-Ron-24-05-2020/static/js/main.99b29721.chunk.js.map",
+    "main.css": "/Shiri-Ron-24-05-2020/static/css/main.4be9d301.chunk.css",
+    "main.js": "/Shiri-Ron-24-05-2020/static/js/main.b5fd9c29.chunk.js",
+    "main.js.map": "/Shiri-Ron-24-05-2020/static/js/main.b5fd9c29.chunk.js.map",
     "runtime-main.js": "/Shiri-Ron-24-05-2020/static/js/runtime-main.7a0cc960.js",
     "runtime-main.js.map": "/Shiri-Ron-24-05-2020/static/js/runtime-main.7a0cc960.js.map",
-    "static/js/2.1f968bea.chunk.js": "/Shiri-Ron-24-05-2020/static/js/2.1f968bea.chunk.js",
-    "static/js/2.1f968bea.chunk.js.map": "/Shiri-Ron-24-05-2020/static/js/2.1f968bea.chunk.js.map",
+    "static/js/2.74d6de9f.chunk.js": "/Shiri-Ron-24-05-2020/static/js/2.74d6de9f.chunk.js",
+    "static/js/2.74d6de9f.chunk.js.map": "/Shiri-Ron-24-05-2020/static/js/2.74d6de9f.chunk.js.map",
     "index.html": "/Shiri-Ron-24-05-2020/index.html",
-    "precache-manifest.d67dad60ac1c988a0d545374bd5e14a9.js": "/Shiri-Ron-24-05-2020/precache-manifest.d67dad60ac1c988a0d545374bd5e14a9.js",
+    "precache-manifest.521fac566ea6ecb48dbf91f14720875a.js": "/Shiri-Ron-24-05-2020/precache-manifest.521fac566ea6ecb48dbf91f14720875a.js",
     "service-worker.js": "/Shiri-Ron-24-05-2020/service-worker.js",
-    "static/css/main.8088575c.chunk.css.map": "/Shiri-Ron-24-05-2020/static/css/main.8088575c.chunk.css.map",
-    "static/js/2.1f968bea.chunk.js.LICENSE.txt": "/Shiri-Ron-24-05-2020/static/js/2.1f968bea.chunk.js.LICENSE.txt",
+    "static/css/main.4be9d301.chunk.css.map": "/Shiri-Ron-24-05-2020/static/css/main.4be9d301.chunk.css.map",
+    "static/js/2.74d6de9f.chunk.js.LICENSE.txt": "/Shiri-Ron-24-05-2020/static/js/2.74d6de9f.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/Shiri-Ron-24-05-2020/static/media/background.e12982f6.jpg",
     "static/media/empty.png": "/Shiri-Ron-24-05-2020/static/media/empty.d1a3fce6.png",
     "static/media/full.png": "/Shiri-Ron-24-05-2020/static/media/full.7dd045a8.png",
     "static/media/sun-cloud.svg": "/Shiri-Ron-24-05-2020/static/media/sun-cloud.8c2ec307.svg",
@@ -19,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7a0cc960.js",
-    "static/js/2.1f968bea.chunk.js",
-    "static/css/main.8088575c.chunk.css",
-    "static/js/main.99b29721.chunk.js"
+    "static/js/2.74d6de9f.chunk.js",
+    "static/css/main.4be9d301.chunk.css",
+    "static/js/main.b5fd9c29.chunk.js"
   ]
 }
