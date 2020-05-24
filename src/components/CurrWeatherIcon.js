@@ -8,11 +8,11 @@ const CurrWeatherIcon = ({ temperature }) => {
   const getIcon = () => {
     let iconComponent;
     if (temperature < 15) iconComponent = <CloudOutlinedIcon />;
-    else if (temperature > 15 && temperature < 20)
+    else if (temperature >= 15 && temperature < 20)
       iconComponent = (
         <img src={sunCloud} width="25px" height="25px" alt="sun-cloud" />
       );
-    else if (temperature > 20) iconComponent = <WbSunnyOutlinedIcon />;
+    else if (temperature >= 20) iconComponent = <WbSunnyOutlinedIcon />;
     return iconComponent;
   };
   return <>{getIcon()}</>;
