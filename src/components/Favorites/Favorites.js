@@ -36,7 +36,7 @@ Favorites.propTypes = {
 };
 
 const mapStateToPtops = (state) => ({
-  favorites: state.weatherReducer.favorites,
+  favorites: state.favoritesReducer.favorites,
 });
 
 const currComponent = withStyles(styles)(Favorites);

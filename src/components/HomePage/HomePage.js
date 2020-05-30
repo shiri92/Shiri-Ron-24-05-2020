@@ -104,7 +104,7 @@ class HomePage extends Component {
       isTempAsC,
     } = this.props;
     return (
-      <div>
+      <div className={classes.homePageContainer}>
         <ActionsBar getNewLocation={this.setCurrWeatherByCity} />
 
         <div className={classes.mainForecastContainer}>
@@ -202,13 +202,12 @@ HomePage.propTypes = {
 };
 
 const mapStateToPtops = (state) => ({
-  locations: state.weatherReducer.locations,
+  locations: state.locationsReducer.locations,
   currWeather: state.weatherReducer.currWeather,
-  currLocation: state.weatherReducer.currLocation,
+  currLocation: state.locationsReducer.currLocation,
   curr5DaysForecast: state.weatherReducer.curr5DaysForecast,
-  favorites: state.weatherReducer.favorites,
+  favorites: state.favoritesReducer.favorites,
   isTempAsC: state.weatherReducer.isTempAsC,
-  isError: state.weatherReducer.isError,
 });
 
 const currComponent = withStyles(styles, { withTheme: true })(HomePage);

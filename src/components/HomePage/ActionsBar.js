@@ -7,13 +7,14 @@ import Autocomplete from "@material-ui/lab/Autocomplete";
 import Switch from "@material-ui/core/Switch";
 import { connect } from "react-redux";
 import { getLocations, toggleCToF } from "../../actions/weatherActions";
+import { debounce } from "lodash";
 
 class ActionsBar extends Component {
   state = {
     autoCompleteOptions: [],
   };
 
-  handelSearch = async (value) => {
+  handelSearch = debounce(async (value) => {
     // when searching value, fetch all cities from api to set the dropdown
     if (value) await this.props.getLocations(value);
     else await this.props.getLocations(this.props.currLocation.LocalizedName);
@@ -21,7 +22,7 @@ class ActionsBar extends Component {
       (location) => location.LocalizedName
     );
     this.setState({ autoCompleteOptions: filterLocationsByName });
-  };
+  }, 500);
 
   render() {
     const { classes, getNewLocation, isTempAsC } = this.props;
@@ -62,8 +63,8 @@ ActionsBar.propTypes = {
 };
 
 const mapStateToPtops = (state) => ({
-  locations: state.weatherReducer.locations,
-  currLocation: state.weatherReducer.currLocation,
+  locations: state.locationsReducer.locations,
+  currLocation: state.locationsReducer.currLocation,
   isTempAsC: state.weatherReducer.isTempAsC,
 });
 

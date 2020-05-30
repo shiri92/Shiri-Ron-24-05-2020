@@ -2,6 +2,9 @@ import cyan from "@material-ui/core/colors/cyan";
 import background from "../../icons/background.jpg";
 
 export const styles = (theme) => ({
+  homePageContainer: {
+    height: "calc(100% - 64px)",
+  },
   actionsBarContainer: {
     maxWidth: "450px",
     margin: "0 auto",
