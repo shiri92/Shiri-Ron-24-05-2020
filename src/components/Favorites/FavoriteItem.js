@@ -17,7 +17,7 @@ const FavoriteItem = ({ classes, isTempAsC, city }) => {
 
   useEffect(() => {
     setShowCard(true);
-  });
+  }, []);
 
   return (
     <CSSTransition key={city.id} in={showCard} timeout={300} classNames="card">
