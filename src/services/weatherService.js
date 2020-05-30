@@ -4,10 +4,9 @@ const API_KEY = "CA4pOBrUyGWeAykkbBDxTLED97tROrPn";
 
 const getLocations = async (query) => {
   try {
-    // const apiCall = await fetch(
-    //   `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${API_KEY}&q=${query}`
-    // );
-    const apiCall = false;
+    const apiCall = await fetch(
+      `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${API_KEY}&q=${query}`
+    );
     const res = await apiCall.json();
     return res;
   } catch (error) {
@@ -17,10 +16,9 @@ const getLocations = async (query) => {
 
 const getCurrLocation = async (query) => {
   try {
-    // const apiCall = await fetch(
-    //   `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${API_KEY}&q=${query}`
-    // );
-    const apiCall = false;
+    const apiCall = await fetch(
+      `https://dataservice.accuweather.com/locations/v1/cities/autocomplete?apikey=${API_KEY}&q=${query}`
+    );
     const res = await apiCall.json();
     return res;
   } catch (error) {
@@ -30,10 +28,9 @@ const getCurrLocation = async (query) => {
 
 const getCurrentWeather = async (locationKey) => {
   try {
-    // const apiCall = await fetch(
-    //   `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}/?apikey=${API_KEY}`
-    // );
-    const apiCall = false;
+    const apiCall = await fetch(
+      `https://dataservice.accuweather.com/currentconditions/v1/${locationKey}/?apikey=${API_KEY}`
+    );
     const res = await apiCall.json();
     return res;
   } catch (error) {
@@ -43,10 +40,9 @@ const getCurrentWeather = async (locationKey) => {
 
 const get5DaysForecast = async (locationKey) => {
   try {
-    // const apiCall = await fetch(
-    //   `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${API_KEY}`
-    // );
-    const apiCall = false;
+    const apiCall = await fetch(
+      `https://dataservice.accuweather.com/forecasts/v1/daily/5day/${locationKey}?apikey=${API_KEY}`
+    );
     const res = await apiCall.json();
     return res;
   } catch (error) {
